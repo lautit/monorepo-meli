@@ -1,14 +1,11 @@
 import React from 'react';
 
-const logo = `images/logo__small.png`;
-const home = `/`;
+import logo from 'logo.svg';
+
+import { Image } from 'semantic-ui-react';
 
 const Logo = () => {
-  return (
-    <a className="nav-logo" href={home}>
-      <img src={logo} alt="logo" />
-    </a>
-  );
+  return <Image fluid style={{ maxHeight: '3rem' }} src={logo} alt="logo" />;
 };
 
 export default Logo;

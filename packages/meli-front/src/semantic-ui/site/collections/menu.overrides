@@ -1,0 +1,13 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+@background: #fff159;
+
+.ui.menu {
+    background: @background;
+
+    .item {
+        padding: .5rem 0;
+    }
+}

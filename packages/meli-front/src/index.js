@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Static
-import 'index.css';
+import 'semantic-ui-less/semantic.less';
 
 // App
 import App from 'App';

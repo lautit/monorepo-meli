@@ -1,3 +1,15 @@
+.autoWidth {
+  width: auto !important;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.ui.search {
+  border-radius: 0 !important;
+}
+
 .nav {
   &-header {
     background-color: #fff159;

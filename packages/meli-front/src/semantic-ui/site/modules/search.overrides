@@ -1,0 +1,9 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+@promptBorderRadius: 1em;
+
+.ui.search .prompt {
+    border-radius: .5rem;
+}
