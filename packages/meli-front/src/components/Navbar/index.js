@@ -22,10 +22,8 @@ const renderGrid = () => (
 
 const renderMenu = () => (
   <Menu borderless fixed="top">
-    <Menu.Item>
+    <Menu.Item style={{ width: '100%' }}>
       <Logo />
-    </Menu.Item>
-    <Menu.Item>
       <SearchBar />
     </Menu.Item>
   </Menu>

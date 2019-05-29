@@ -35,6 +35,7 @@ export default class SearchBar extends Component {
 
     return (
       <Search
+        style={{ width: '-webkit-fill-available' }}
         loading={isLoading}
         onResultSelect={this.handleResultSelect}
         onSearchChange={_.debounce(this.handleSearchChange, 500, {

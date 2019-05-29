@@ -47,7 +47,7 @@
     "mercadolibre",
     "meli"
   ],
-  "author": "Lautaro Tejerina",
+  "author": "Lautaro Tejerina <lautit@gmail.com> (https://github.com/lautit)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lautit/meli-front/issues"
